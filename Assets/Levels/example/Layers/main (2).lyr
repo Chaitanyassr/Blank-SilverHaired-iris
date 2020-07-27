@@ -1,0 +1,253 @@
+<ObjectLayer>
+ <Layer Name="Main" FullName="Main" GUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
+  <LayerObjects>
+   <Object Type="EntityWithComponent" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="93909fb0-ad23-1343-ffa7-36e46cff9dde" Name="EnvironmentProbe1" Pos="64,64,96" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="63297e89-ea00-4f56-ac23-2e93c68fe71d" TypeName="Cry::DefaultComponents::CEnvironmentProbeComponent" GUID="aadead01-b972-cf18-9c88-0e4f75a396ba" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Active="true">
+       <Generation GeneratedCubemapPath="Textures\cubemaps\example\EnvironmentProbe1_cm.tif" AutoLoad="true" Resolution="Low"/>
+       <BoxSize x="1000" y="1000" z="1000"/>
+       <Options IgnoreVisAreas="false" SortPriority="0" AttenuationFalloffMax="1" AffectVolumetricFog="true" VolumetricFogOnly="false" OnlyAffectThisArea="true" BoxProjection="false"/>
+       <Color DiffMult="1" SpecMult="1">
+        <Color r="1" g="1" b="1" a="1"/>
+       </Color>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="fd3bb5b1-d5c4-0807-175f-0442fad4421e" Name="tree_house_a-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/architecture/tree_house_a/tree_house_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="a0c555d0-004d-7310-9686-7025af7bb627" Name="tree_house_a-35" Pos="36.071648,70.887672,37.717037" Rotate="1.1920929e-07,0,0,-1.0000001" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/natural/bushes/fern_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="3981b89c-ffcd-f273-3afa-2bd4c3492060" Name="tree_house_a-7" Pos="47.828884,88.044235,37.46981" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/spaceship/rubble_pile_set_a/rubble_pile_large_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="313c03ac-bc14-1f49-2f76-eb742f1ddb0d" Name="tree_house_a-8" Pos="54.772743,88.044235,37.46981" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/spaceship/rubble_pile_set_a/rubble_pile_tiny_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="b0104ab8-6549-23ee-5b24-a9dec83dd427" Name="tree_house_a-42" Pos="54.854935,70.887672,38.199371" Rotate="1.1920929e-07,0,0,-1.0000001" Scale="0.44642857,0.44642857,0.44642857" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/natural/bushes/gunnera_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="758aae66-bcae-a2fd-8bfc-6ff79179b8ca" Name="tree_house_a-19" Pos="35.362568,78.404457,37.717037" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/crates/crate_body_drawer.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Designer" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="a06bf249-0bcf-40bf-9723-5020d2701400" Name="Designer Box4" Pos="56.605255,69.87468,37.021385" Rotate="0.99996191,0,0,-0.0087265354" Scale="7.8245997,1.3964999,1" ColorRGB="16777215" Material="objects/ground" RndFlags="1073741832" StaticObjFlags="0" ViewDistRatio="100">
+    <Brush DesignerModeFlags="0" SubdivisionLevel="0" SubdivisionSmoothingGroup="0" MirrorPlaneNormal="0,0,0" MirrorPlaneDistance="0">
+     <Polygon GUID="6bbd580a-ff8d-4264-a5a7-f0f94a0c7d84" BinaryData="BAAAAEzRWsi2swnAehLJKxF+MUAAAAAAAADIvEzRWsi2swnAehLJKxF+MUAEAAAAAAAQwEzRWsi2swnAAAAAQBF+McAEAAAAAAAQwEzRWsi2swnAAAAAQBF+McAAAAAAAADIvAQAAAAAAAAAAQAAAAEAAAACAAAAAgAAAAMAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAAAAAABM0VrItrMJwLus2MEAAKAnu6zYwQAAgEBg0fxAAACAQGDR/EAAAJAn"/>
+     <Polygon GUID="405c976b-1fb5-4fa0-ab44-35b6a7ec3c54" BinaryData="BAAAAEzRWsi2swnAehLJKxF+MUAEAAAAAAAQwCi8y6GCAxBAehLJKxF+MUAEAAAAAAAQwCi8y6GCAxBA/P//PxF+McAEAAAAAAAQwEzRWsi2swnA/P//PxF+McAEAAAAAAAQwAQAAAAAAAAAAQAAAAEAAAACAAAAAgAAAAMAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8EAAAAAAAQwLadTUCJ8ItBFRyAwInwi0EVHIDAivCLwbadTUCK8IvB"/>
+     <Polygon GUID="ffd8ee3b-38f2-4c72-becf-8d9a62acf470" BinaryData="BAAAACi8y6GCAxBAfRLJKxF+MUAAAAAAAAD7PEzRWsi2swnAfRLJKxF+MUAAAAAAAAD7PEzRWsi2swnAAAAAQBF+McAAAAAAAAD7PCi8y6GCAxBAAAAAQBF+McAAAAAAAAD7PAQAAAAAAAAAAQAAAAEAAAACAAAAAgAAAAMAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAADIPBUcgECJ8IvBtp1NwInwi8G2nU3AivCLQRUcgECK8ItB"/>
+     <Polygon GUID="294d4d28-b679-493a-bc47-1d602ffc2d76" BinaryData="BAAAACi8y6GCAxBAfRLJKxF+MUD3//////8PwCi8y6GCAxBAfRLJKxF+MUAAAAAAAAD7PCi8y6GCAxBA/P//PxF+McAAAAAAAAD7PCi8y6GCAxBA/P//PxF+McD3//////8PwAQAAAAAAAAAAQAAAAEAAAACAAAAAgAAAAMAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAovMuhggMQwInwi0EAAIBAifCLQQAA2KeK8IvBAABsqIrwi8EAAIBA"/>
+     <Polygon GUID="556e3cc9-8399-4e21-ab91-75e4e60701d4" BinaryData="BAAAAEzRWsi2swnAehLJKxF+MUAEAAAAAAAQwEzRWsi2swnAehLJKxF+MUAAAAAAAADIvCi8y6GCAxBAehLJKxF+MUAAAAAAAADIvCi8y6GCAxBAehLJKxF+MUAEAAAAAAAQwAQAAAAAAAAAAQAAAAEAAAACAAAAAgAAAAMAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAABAEX4xwLadTUAAAIBAtp1NQAAAQCYVHIDAAADYpxUcgMAAAIBA"/>
+     <Polygon GUID="b8dc6455-eeda-4da7-aed5-320682346aaf" BinaryData="BAAAACi8y6GCAxBA/P//PxF+McD3//////8PwCi8y6GCAxBA/P//PxF+McAAAAAAAIANPUzRWsi2swnA/P//PxF+McAAAAAAAIANPUzRWsi2swnA/P//PxF+McD3//////8PwAQAAAAAAAAAAQAAAAEAAAACAAAAAwAAAAAAAAACAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAAAAAAAAABAEX4xwBUcgEAAAIBAFRyAQAAAbKi2nU3AAABAJradTcAAAIBA"/>
+     <SmoothingGroups />
+     <SemiSharpCrease />
+     <UVIslands />
+    </Brush>
+    <Mesh Version="2" BinaryData="AAAAAAAAAAAYAAAAGAAAACQAAAAYAAAAAQAAALadTcCJ8ItBAABApradTcCJ8ItBAACAwLadTcCK8IvBAACAwLadTcCK8IvBAABApradTcCJ8ItBAACAwBUcgECJ8ItBAACAwBUcgECK8IvBAACAwLadTcCK8IvBAACAwBUcgECJ8ItBAADYJ7adTcCJ8ItBAADYJ7adTcCK8IvBAADYJxUcgECK8IvBAADYJxUcgECJ8ItBAACAwBUcgECJ8ItBAADYJxUcgECK8IvBAADYJxUcgECK8IvBAACAwLadTcCJ8ItBAACAwLadTcCJ8ItBAABAphUcgECJ8ItBAABAphUcgECJ8ItBAACAwBUcgECK8IvBAACAwBUcgECK8IvBAABsKLadTcCK8IvBAABsKLadTcCK8IvBAACAwAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAALys2MEAAAAAvKzYwQAAgEBi0fxAAACAQGLR/EAAAAAAtp1NQIrwi0EVHIDAivCLQRUcgMCK8IvBtp1NQIrwi8EVHIBAivCLwbadTcCK8IvBtp1NwIrwi0EVHIBAivCLQYrwi0EAAIBAivCLQQAAAACK8IvBAAAAAIrwi8EAAIBAtp1NQAAAgEC2nU1AAAAAABUcgMAAAAAAFRyAwAAAgEAVHIBAAACAQBUcgEAAAAAAtp1NwAAAAAC2nU3AAACAQAAAAQACAAAAAgADAAQABQAGAAQABgAHAAgACQAKAAgACgALAAwADQAOAAwADgAPABAAEQASABAAEgATABQAFQAWABQAFgAXAAAAAYAAAAGAAAAAAAGAAYAAAAKAAAABgAAAAAACgAGAAAABgAAAAYAAAAAAAYABgAAAAoAAAAGAAAAAAAKAAYACgAAAAAD/fwAA/n8AAP9/AoAAAAAA/38AAP5/AAD/fwKAAAAAAP9/AAD+fwAA/38CgAAAAAD/fwAA/n8AAP9//n8AAAAAAYAAAAKAAAABgP5/AAAAAAGAAAACgAAAAYD+fwAAAAABgAAAAoAAAAGA/n8AAAAAAYAAAAKAAAABgAAA/38AAAGAAAAAAAGAAYAAAP5/AAABgAAAAAACgAGAAAD/fwAAAYAAAAAAAYABgAAA/n8AAAGAAAAAAAKAAYACgAAAAAABgAAAAAACgAGAAoAAAAAAAYAAAAAAAoABgAKAAAAAAAGAAAAAAAKAAYACgAAAAAABgAAAAAACgAGA/n8AAAAAAYAAAAAAAoABgP5/AAAAAAGAAAAAAAKAAYD+fwAAAAABgAAAAAACgAGA/n8AAAAAAYAAAAAAAoABgNBpyj4AAIC1AAAAwE7Hj0EAAAAAAAAAACQAAAAAAAAAGAAAAAAAAAAAAAAAABAAAA=="/>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="bab98954-9629-7711-9fbd-f4085e2578bf" Name="tree_house_a-49" Pos="84.588013,70.887672,38.199371" Rotate="1.1920929e-07,0,0,-1.0000001" Scale="1.01,1.01,1.01" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/natural/bushes/thorn_d.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="3bffe3cf-9084-3f8a-34b0-f2bc8b176719" Name="tree_house_a-38" Pos="43.678398,70.887672,37.717037" Rotate="1.1920929e-07,0,0,-1.0000001" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/natural/bushes/fern_ridged_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="96aff4ea-d039-cfd0-b05a-e79a319cf8aa" Name="tree_house_a-4" Pos="43.784435,88.537857,37.46981" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/spaceship/rubble_pile_set_a/rubble_alpha_strut_large_b_bend.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="3bc6c5a7-16ab-ace4-0133-1b063047e68d" Name="tree_house_a-3" Pos="40.329605,88.537857,37.46981" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/spaceship/rubble_pile_set_a/rubble_pile_greeble_c.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="af82a3be-6b87-2014-8b67-aa6576512c35" Name="tree_house_a-2" Pos="35.784798,88.537857,37.46981" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/architecture/tree_house_a/tree_house_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="03e7a695-b4f3-1486-16a9-b8a7dea35a34" Name="Entity-7" Pos="56.622242,68.129768,43.356094" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="63297e89-ea00-4f56-ac23-2e93c68fe71d" TypeName="Cry::DefaultComponents::CEnvironmentProbeComponent" GUID="41801176-b35b-b7ea-f81b-eb13c934ad1a" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Active="true">
+       <Generation GeneratedCubemapPath="textures\cubemaps\example\Entity-7_cm.tif" AutoLoad="true" Resolution="Low"/>
+       <BoxSize x="100" y="100" z="100"/>
+       <Options IgnoreVisAreas="false" SortPriority="0" AttenuationFalloffMax="1" AffectVolumetricFog="true" VolumetricFogOnly="false" OnlyAffectThisArea="true" BoxProjection="false"/>
+       <Color DiffMult="1" SpecMult="1">
+        <Color r="1" g="1" b="1" a="1"/>
+       </Color>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="2e6c7d2a-71c8-b585-ba27-69a42ea1de7a" Name="tree_house_a-50" Pos="73.298973,41.622894,37.717041" Rotate="-0.20434129,0,0,-0.97889978" Scale="0.016520847,0.016520847,0.016520847" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/spaceship/ship_esmeralda_a/vista_spaceshipwreck_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="d14ae3c5-f128-4ed6-3f65-a438417074b1" Name="tree_house_a-9" Pos="59.070255,88.044235,37.46981" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/spaceship/rubble_pile_set_a/rubble_pile_tiny_b.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="db98ef3e-2009-87c0-7a68-0f5585917d9d" Name="tree_house_a-23" Pos="37.173428,75.417084,37.717037" Rotate="1.1920929e-07,0,0,-1.0000001" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/rescue_pod_seats/rescue_pod_seat_open.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="f4f44950-9d83-0551-b6d8-df83b2a80328" Name="tree_house_a-24" Pos="38.32608,75.417084,37.006332" Rotate="1.1920929e-07,0,0,-1.0000001" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/rescue_pod_seats/rescue_pod_seat_taped.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="08c29537-987a-64a8-bb39-5dc580dea810" Name="tree_house_a-29" Pos="49.633427,75.152008,38.100216" Rotate="1.1920929e-07,0,0,-1.0000001" Scale="2.8,2.8,2.8" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/tools/filter_water_a/filter_water_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="02e35114-340b-5345-4aaa-ef549de14232" Name="tree_house_a-10" Pos="35.362568,82.24572,37.717037" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/spaceship/rubble_pile_set_a/rubble_tech_piece_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="3938238e-8e32-c046-ae7c-ee914cfb5bc7" Name="tree_house_a-37" Pos="39.985195,70.887672,37.717037" Rotate="1.1920929e-07,0,0,-1.0000001" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/natural/bushes/fern_b.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="b060cf02-1fde-9a33-8ada-426ca2135cd2" Name="tree_house_a-11" Pos="37.377293,82.24572,37.717037" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/spaceship/panel_set_a/panel_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="df73e78a-7ea0-d4be-b0ee-dbb2cbe436a3" Name="tree_house_a-12" Pos="39.533478,82.24572,37.717037" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/spaceship/panel_set_a/panel_c.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="f08963a9-1856-05d3-2dfd-76001b6716a2" Name="tree_house_a-13" Pos="70.407059,82.24572,45.968449" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/spaceship/panel_set_a/tp_pannel_004.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="ffc041f1-475b-5a8d-de4c-6fda6b730be3" Name="tree_house_a-17" Pos="59.424011,82.24572,37.44701" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/spaceship/panel_set_a/tp_pannel_deco_001.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="1de319fd-67dd-cac4-20d9-e7167497ef4b" Name="tree_house_a-21" Pos="37.100994,78.404457,37.717037" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/crates/crate_body_lid.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="d5cf8857-95ee-b8a2-b3f3-eb1261a2c218" Name="tree_house_a-14" Pos="42.716351,82.24572,40.051491" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/spaceship/panel_set_a/panel_hanging_destroyed_b.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="ad3f8734-d451-6f9f-3495-1e1747582dcc" Name="tree_house_a-39" Pos="47.102879,70.887672,37.717037" Rotate="1.1920929e-07,0,0,-1.0000001" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/natural/bushes/fern_ridged_b.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="3453769a-5ee2-b097-bd66-76dd9116c1b8" Name="tree_house_a-15" Pos="48.467411,82.24572,37.918716" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/spaceship/panel_set_a/panel_destroyed_h.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="4f19f87b-ef67-e020-1656-00141e0734b1" Name="tree_house_a-16" Pos="54.049164,82.24572,37.44701" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/spaceship/panel_set_a/panel_destroyed_l.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="54a006fc-48ec-6821-3440-0e9a88c596df" Name="tree_house_a-18" Pos="65.219482,82.24572,37.44701" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/spaceship/panel_set_a/tp_pannel_deco_003.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="9f21a9e7-c704-4080-d807-9734291603a2" Name="tree_house_a-20" Pos="39.721535,78.282761,37.717037" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/crates/crate_large_closed.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="f24af38b-af98-2a2a-5669-3606ed476626" Name="tree_house_a-22" Pos="36.071648,75.417084,37.717037" Rotate="1.1920929e-07,0,0,-1.0000001" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/rescue_pod_seats/rescue_pod_seat_closed.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="47d724ae-db47-cb04-293d-3e0bf896d536" Name="tree_house_a-25" Pos="39.636093,75.617867,37.607399" Rotate="-0.8417744,-0.53982985,-6.4352719e-08,-1.0034731e-07" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/rescue_pod_seats/rescue_pod_seat_treehouse.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="f254fadc-39c8-1260-a0db-946f3ee9dd04" Name="tree_house_a-45" Pos="64.72509,70.887672,38.199371" Rotate="1.1920929e-07,0,0,-1.0000001" Scale="1.01,1.01,1.01" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/natural/bushes/long_leaf_b.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="5924cdc6-b2c8-027d-58b2-5432d11ed467" Name="tree_house_a-26" Pos="41.304951,72.792252,36.152657" Rotate="-0.70710683,0,0,-0.70710701" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/rescue_pod_seats/rescue_pod_seats_b.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="a362f7aa-bb12-a0f4-a28c-ddca66b67063" Name="tree_house_a-27" Pos="46.146385,75.357117,37.717037" Rotate="1.1920929e-07,0,0,-1.0000001" Scale="7.0999999,7.0999999,7.0999999" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/tools/batteries_a/batteries_a_empty_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="a2278dbd-3b4c-db6c-f394-a0a336edfa31" Name="tree_house_a-28" Pos="47.523167,75.357117,37.717037" Rotate="1.1920929e-07,0,0,-1.0000001" Scale="7.0999999,7.0999999,7.0999999" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/tools/batteries_a/batteries_a_full_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="87e1bc92-b7e2-4cbf-dfc5-346bb849886c" Name="tree_house_a-30" Pos="52.087814,75.417084,37.717037" Rotate="1.1920929e-07,0,0,-1.0000001" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/tools/generator_a/generator_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="f0e4bc36-76a5-b9ae-39c1-caca168a3d8c" Name="tree_house_a-31" Pos="54.707542,75.417084,37.717037" Rotate="-1.0000002,0,0,-1.1920929e-07" Scale="2.5799999,2.5799999,2.5799999" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/tools/sketches_tablet_a/sketches_tablet_standing.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="e0918bb3-22f3-627a-9f70-3318e01168b8" Name="tree_house_a-32" Pos="56.298931,75.417084,37.717037" Rotate="-1.0000002,0,0,-1.1920929e-07" Scale="2.5799999,2.5799999,2.5799999" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/tools/sketches_tablet_a/sketches_tablet_flat.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="7fc4f6fa-04b9-1f94-3bdc-76fd698fb356" Name="tree_house_a-33" Pos="57.889942,75.417084,38.187313" Rotate="-1.0000002,0,0,-1.1920929e-07" Scale="2.5799999,2.5799999,2.5799999" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/tools/sketches_tablet_a/sketches_tablet_hanging.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="548c62da-f231-3843-a52f-56de829f309b" Name="tree_house_a-34" Pos="60.412567,75.417084,37.429367" Rotate="-1.0000002,0,0,-1.1920929e-07" Scale="1.22,1.22,1.22" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/tools/telescope_a/telescope_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="9e850450-5096-d64c-6c56-06e6a8096339" Name="tree_house_a-36" Pos="37.400688,52.688122,37.717037" Rotate="1.1920929e-07,0,0,-1.0000001" Scale="0.58823526,0.58823526,0.58823526" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/natural/trees/tree_treehouse.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="7e2bd35d-d950-f628-14c0-aa9140b2f871" Name="tree_house_a-40" Pos="50.167408,70.887672,37.717037" Rotate="1.1920929e-07,0,0,-1.0000001" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/natural/bushes/fern_stripes_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="1387ca74-f99c-d1cf-1871-7f905fdb575b" Name="tree_house_a-41" Pos="52.569557,70.887672,37.717037" Rotate="1.1920929e-07,0,0,-1.0000001" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/natural/bushes/fern_stripes_b.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="9fbb858d-2ca4-809c-c3a8-61b85581524f" Name="tree_house_a-43" Pos="62.467598,70.887672,38.199371" Rotate="1.1920929e-07,0,0,-1.0000001" Scale="1.01,1.01,1.01" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/natural/bushes/long_leaf_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="edbc4ac4-d15b-894d-6d78-30d5da28a55d" Name="tree_house_a-48" Pos="79.030708,70.887672,38.199371" Rotate="1.1920929e-07,0,0,-1.0000001" Scale="1.01,1.01,1.01" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/natural/bushes/thorn_c.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="9362476d-34e7-f412-b116-c6c0cbbad6b3" Name="tree_house_a-44" Pos="59.248974,70.887672,38.199371" Rotate="1.1920929e-07,0,0,-1.0000001" Scale="0.44642857,0.44642857,0.44642857" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/natural/bushes/gunnera_c.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="e0bfb32e-d69d-98a6-b61a-201de4033053" Name="tree_house_a-46" Pos="67.817322,70.887672,38.199371" Rotate="1.1920929e-07,0,0,-1.0000001" Scale="1.01,1.01,1.01" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/natural/bushes/thinleaf_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="10924d1a-273d-c712-e719-93d3b8a9aa50" Name="tree_house_a-47" Pos="73.048203,70.887672,38.199371" Rotate="1.1920929e-07,0,0,-1.0000001" Scale="1.01,1.01,1.01" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/natural/bushes/thinleaf_b.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="71750a7c-02e1-448d-af80-afb7dd05249d" Name="tree_house_a-51" Pos="13.894081,106.9315,32.333275" Rotate="0.66766179,0,0,0.74446535" Scale="0.08491715,0.08491715,0.08491715" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/spaceship/ship_esmeralda_a/vista_spaceship.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="EntityWithComponent" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="ec961d87-73fa-b83d-ef90-4d486cedb331" Name="Entity-5" Pos="57.072857,55.65844,38.409313" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="5f543092-53ea-46d7-9376-266e778317d7" TypeName="Cry::DefaultComponents::CAnimatedMeshComponent" GUID="94c4094d-62bd-c702-5dac-ed1d1e4f6d6e" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Type="RenderAndCollider" FilePath="characters/quetzalcoatlus/quetzalcoatlus.cdf" Animation="" Loop="false" AnimSpeed="1">
+       <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
+       <Physics WeightType="EWeightType::Mass" Density="0" Mass="10"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

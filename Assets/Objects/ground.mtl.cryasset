@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="bf4df16a-c288-243b-3ae8-a22fbd261f31">
+ <Files>
+  <File path="ground.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">%ENGINE%/EngineAssets/Textures/grey.dds</Path>
+ </Dependencies>
+</AssetMetadata>
